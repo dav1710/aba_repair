@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Landing Page</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body style="height: 100vh; overflow: hidden;">
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg fixed-top">    
+    <a class="navbar-brand" href="#">
+        <img src="assets/img/logo.png" alt="">
+    </a>
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-bs-target="#carouselExample" data-bs-slide-to="0">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-target="#carouselExample" data-bs-slide-to="1">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-target="#carouselExample" data-bs-slide-to="2">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center" href="tel:+16184512971" data-bs-target="#carouselExample" data-bs-slide-to="2"><img src="assets/img/phone.png" alt=""><p>+1 (618) 451-2971</p></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExample" style="height: calc(100% - 120px);" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Slide 3">
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js (required for Bootstrap components) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+ 
+  <script src="assets/js/main.js"></script>
+ <!-- Custom JavaScript -->
+ <script>
+    // function goToSlide(index) {
+    // $('#carouselExample').carousel(index);
+    // }
+  </script>
+</body>
+</html>

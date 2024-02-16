@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'RobFiraSansCondensedoto';
+    src: url('/assets/fonts/FiraSansCondensed-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter-Regular.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter-Medium.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter-SemiBold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/FiraSansCondensed-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #F8F8F8;
+    padding-top: 120px;
+    box-sizing: content-box;
+  }
+nav {
+    height: 120px;
+    background-color: #435585;
+}
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+.navbar-brand{
+    margin-left: 4.8%;
+}
+
+.nav-item a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 44px;
+}
+.navbar-nav{
+  margin-left: 47.49%;
+}
+
+.nav-item:not(:first-child) {
+  /* margin-right: 19%; */
+  margin-left: 8.6%;
+}
+.nav-link img {
+  object-fit: none;
+}
+.nav-link p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 10px;
+  text-wrap: nowrap;
+  color: #191717;
+  line-height: 29.05px;
+  letter-spacing: 0.8px
+}
