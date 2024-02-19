@@ -213,7 +213,7 @@ ul, ol {
 }
 .service_container{
   display: grid;
-  margin: 4%;
+  margin: 1% 4% 0 4%;
   grid-template-columns: 1fr 1fr;
 }
 .service_text_container{
@@ -232,7 +232,7 @@ ul, ol {
   font-size: 36px;
   color: #B4B4B8;
   font-weight: 700;
-  margin-bottom: 66px;
+  margin-bottom: 4%;
   text-align: left;
 }
 .service_text_container p {
@@ -245,6 +245,7 @@ ul, ol {
 .second_grid{
   display: flex;
   justify-content: flex-end;
+  height: 85%;
 }
 .second_grid img {
   object-fit: contain;
@@ -253,11 +254,37 @@ ul, ol {
   display: flex;
   grid-column: col 3/1;
   gap: 33px;
+  justify-content: space-between;
 }
 .service_grid_items:not(:last-child){
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 .last_grid img{
   max-height: 254px;
   object-fit: cover;
+}
+.card-text{
+  font-family: 'Inter', sans-serif !important;
+  font-size: 1rem !important;
+  color: #435585 !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+}
+.card {
+  border: 1px solid #435585 !important;
+}
+
+
+
+
+@media only screen and (max-width: 1600px) {
+  .nav-item a{
+    font-size: 15px;
+  }
+  .nav-link p{
+    font-size: 19px;
+  }
+  .navbar-nav{
+    margin-left: 42%;
+  }
 }
