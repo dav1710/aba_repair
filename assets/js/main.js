@@ -5,6 +5,6 @@ $(document).ready(function () {
         $('.navbar-nav a[data-bs-slide-to="' + slideIndex + '"]').addClass('active');
       });
       $('#carouselExample').carousel({
-        interval: 3000
+        interval: 30000000
       });
   });
