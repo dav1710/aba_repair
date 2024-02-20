@@ -17,10 +17,14 @@
     <a class="navbar-brand" href="#">
         <img src="assets/img/logo.png" alt="">
     </a>
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- <div class="container"> -->
+     <div class="d-flex">
+      <a class="nav-link small_screen" href="tel:+16184512971">
+        <img src="assets/img/phone.png" alt=""><p>+1 (618) 451-2971</p></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span style="background-image: url('assets/img/burger.png');" class="navbar-toggler-icon"></span>
+        </button>
+     </div>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -37,11 +41,11 @@
           </li>
         </ul>
       </div>
-    </div>
+    <!-- </div> -->
   </nav>
 
   <!-- Carousel -->
-  <div id="carouselExample" style="height: calc(100% - 120px);" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="carousel_indicator_buttons active"></button>
       <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" class="carousel_indicator_buttons"></button>
@@ -77,8 +81,43 @@
               </div>
             </div>
           </div>
-          <div class="first_slide_flex d-flex">
+          <div class="first_slide_flex active_flex d-flex">
             <img class="first_slide_image" src="assets/img/1.png" alt="">
+          </div>
+        </div>
+        <div class="container-fluid home_container_small">
+          <div class="first_slide_flex d-flex flex-wrap">
+            <div class="home_text_block">
+              <h1>Repair <br> Service</h1>
+              <h3>Repair and service at your home</h3>
+              <p>At ABA Appliance Repair, we specialize in expert home appliance repair for a variety of appliances. 
+                 Our skilled professionals are dedicated to delivering swift and reliable solutions, ensuring your appliances 
+                 function seamlessly.
+              </p>
+            </div>
+            <div class="home_image_block">
+              <img class="first_slide_image" src="assets/img/1.png" alt="">
+            </div>
+            <div class="home_info_block">
+              <div class="call_us d-flex">
+                <img class="info_icon" src="assets/img/small_phone.png" alt="">
+                <p class="info_title">Call Us:</p>
+                <p class="info_text">1 (818) 391-6521</p>
+              </div>
+              <div class="email d-flex">
+                <img class="info_icon" src="assets/img/email.png" alt="">
+                <p class="info_title">Email:</p>
+                <p class="info_text">1 (818) 391-6521</p>
+              </div>
+              <div class="fax d-flex">
+                <img class="info_icon" src="assets/img/fax.png" alt="">
+                <p class="info_title">Fax:</p>
+                <p class="info_text">1 (818) 391-6521</p>
+              </div>
+            </div>
+          </div>
+          <div class="first_slide_flex active_flex d-flex">
+            
           </div>
         </div>
       </div>
@@ -109,7 +148,7 @@
       </div>
       <div class="carousel-item">
         <div class="container_fluid service_container">
-          <div class="service_grid_items">
+          <div class="service_grid_items first_grid">
             <div class="service_text_container d-flex">
               <h1>Our Services</h1>
               <h3>Appliance Repair & Appliance Installation</h3>
