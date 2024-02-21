@@ -545,16 +545,59 @@ ul, ol {
     grid-row: 2;
     position: relative;
   }
+  .card-body{
+    padding: 5px !important;
+  }
   
 }
 
 
+@media only screen and (max-width: 660px) {
+  .about_text_block h1{
+    font-size: 33px !important;
+  }
+  .about_text_block h3{
+    font-size: 20px !important;
+  }
+  .about_text_block p{
+    font-size: 16px !important;
+  }
+  .about_text_img img{
+    height: 190px !important;
+  }
+  .service_text_container h1{
+    font-size: 25px !important;
+  }
+  .service_text_container h3{
+    font-size: 17px !important;
+  }
+  .service_text_container p{
+    font-size: 13px !important;
+  }
+  .card-text{
+    font-size: 0.5rem !important;
+  }
+}
 @media only screen and (max-width: 450px) {
   .home_container_small .home_image_block img {
     max-height: 163px !important;
   }
   .home_text_block{
     margin-top: 20%;
+  }
+  .about_text_block h1{
+    font-size: 27px !important;
+    margin-bottom: 0px !important;
+  }
+  .about_text_block h3{
+    font-size: 17px !important;
+    margin-bottom: 0px !important;
+  }
+  .about_text_block p{
+    font-size: 13px !important;
+  }
+  .about_text_img img{
+    height: 110px !important;
   }
 }
 @media only screen and (max-width: 360px) {
